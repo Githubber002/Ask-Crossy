@@ -46,7 +46,7 @@ const FAQ = () => {
   );
 };
 
-export default function Component() {
+const Home = () => {
   useEffect(() => {
     window.customToken = "667aa2a8a188cffb169d687f";
     const script = document.createElement('script');
@@ -185,5 +185,7 @@ export default function Component() {
         </div>
       </footer>
     </div>
-  )
-}
+  );
+};
+
+export default Home;
